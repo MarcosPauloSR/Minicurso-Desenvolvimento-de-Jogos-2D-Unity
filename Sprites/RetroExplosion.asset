@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: RetroExplosion
+  m_EditorClassIdentifier: 
+  hashCode: -142071125
+  material: {fileID: 21488980415959598}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 160
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_0
+    hashCode: -69045990
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300000, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 1
+    x: 80
+    y: 160
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_1
+    hashCode: -69045989
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300002, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 2
+    x: 160
+    y: 160
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_2
+    hashCode: -69045992
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300004, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 3
+    x: 240
+    y: 160
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_3
+    hashCode: -69045991
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300006, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 4
+    x: 320
+    y: 160
+    width: 80
+    height: 80
+    xOffset: -46.5
+    yOffset: 142.7
+    xAdvance: 80
+    scale: 1
+    name: Explosion_4
+    hashCode: -69045986
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300008, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 5
+    x: 0
+    y: 80
+    width: 82.8
+    height: 80
+    xOffset: 15.5
+    yOffset: 74
+    xAdvance: 87.2
+    scale: 1
+    name: Explosion_5
+    hashCode: -69045985
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300010, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 6
+    x: 80
+    y: 80
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_6
+    hashCode: -69045988
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300012, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 7
+    x: 160
+    y: 80
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_7
+    hashCode: -69045987
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300014, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 8
+    x: 240
+    y: 80
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_8
+    hashCode: -69045998
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300016, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 9
+    x: 320
+    y: 80
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_9
+    hashCode: -69045997
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300018, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  - id: 10
+    x: 0
+    y: 0
+    width: 80
+    height: 80
+    xOffset: -40
+    yOffset: 40
+    xAdvance: 80
+    scale: 1
+    name: Explosion_10
+    hashCode: 2016449611
+    unicode: 0
+    pivot: {x: -40, y: 40}
+    sprite: {fileID: 21300020, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+  fallbackSpriteAssets: []
+--- !u!21 &21488980415959598
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: 3a1c68c8292caf046bd21158886c5e40, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 907a19a0cc99bf04288d3b0c0d6afcfb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
